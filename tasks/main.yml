@@ -1,0 +1,9 @@
+---
+# tasks file for just_testing
+- name: Molecule Hello World!
+  debug:
+    msg: Hello, World!
+
+- name: Java Role
+  include_role:
+    name: geerlingguy.java
